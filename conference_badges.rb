@@ -9,5 +9,5 @@ def batch_badge_creator(speakers)
     message = badge_maker(name)
     speaker_messages << message
   end
-  return speaker_messages
+  speaker_messages
 end
