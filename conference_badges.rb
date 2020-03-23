@@ -24,5 +24,5 @@ end
 
 def printer(speakers)
   batch_badge_creator(speakers).each do |person|
-    puts
+    return batch_badge_creator(speakers)[person]
 end
