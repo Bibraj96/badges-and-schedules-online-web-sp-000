@@ -21,3 +21,7 @@ def assign_rooms(speakers)
   end
   return speaker_room_message
 end
+
+def print
+  
+end
